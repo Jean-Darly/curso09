@@ -1,0 +1,207 @@
+
+/* Gerais */
+  body       {font-family: 'Roboto', sans-serif;}
+  .row       {margin: 0;}
+  .container {padding: 70px 0;}
+  p, li      {color: #444; font-size: 14px;}
+  #clock     {font-size: 30px; font-weight: bold;}
+  #mensagem, 
+  #mensagem p{background: #ff914d; padding-top: 8px; text-align: center; font-size: 17px; margin-bottom: 20px;}
+  #divMain   {margin-top: 110px;}
+  #divIndex  {margin-top:-18px;}
+
+
+/* Barra de navegação */
+  header, .navbar       {background-color: #353D41;}
+  #nav-container        {padding-top: 0; padding-bottom: 0;}
+  #logo                 {width: 75px;}
+  .navbar-brand         {padding: 0;color: #FFF;}
+  .navbar-brand:hover   {color: #FFF;}
+  #navbar-links a       {color: #ff914d;}
+  #navbar-links a:hover {color: #fff;}
+  .navbar-expand-lg 
+  .navbar-nav .nav-link {padding: 1rem .8rem;}
+  .nav-item.active      {border-bottom: 3px solid #FFF;}
+
+/* Slider */
+.container-fluid {
+  padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+  height: 90vh;
+}
+
+#mainSlider .carousel-caption {
+  top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  text-shadow: black 0.1em 0.1em 0.1em
+}
+
+#mainSlider .carousel-caption p {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 100px;
+  color: #FFF;
+  text-shadow: black 0.1em 0.1em 0.1em
+}
+
+.main-btn {
+  background-color: #ff914d;
+  color: #000000;
+  text-transform: uppercase;
+  width: 200px;
+  height: 60px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  transition: .5s;
+}
+
+.main-btn:hover {
+  text-decoration: none;
+  color: #000;
+  background-color: transparent;
+  border-color: #ff914d;
+}
+
+.carousel-indicators .active {
+  background-color: #ff914d;
+}
+
+/* responsive */
+@media(max-width: 768px) {
+  /* geral */
+  .container {
+    padding: 20px 0;
+  }
+  
+  /* slider */
+  #mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: auto;
+  }
+
+  #mainSlider .carousel-caption h2 {
+    font-size: 28px;
+  }
+
+  #mainSlider .carousel-caption p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .carousel-caption {
+    left: 10%;
+    right: 10%;
+  }
+  
+  /* apply */
+  #apply-area .apply-box {
+    padding: 50px 25px;
+  }
+
+}
+
+@media(max-width: 425px) {
+
+  /* slider */
+  #mainSlider {
+    margin-top: 90px;
+  }
+
+  #mainSlider .carousel-caption {
+    top: 5%;
+  }
+
+  #mainSlider .carousel-caption h2 {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  #mainSlider .carousel-caption p {
+    display: none;
+  }
+
+  .carousel-caption .main-btn {
+    
+    font-size: 14px;
+  }
+
+  /* about */
+  .main-title {
+    font-size: 30px;
+  }
+
+}
+
+/* paginas /ponto*/
+#divTopoPonto{
+  margin-top: 110px;
+}
+
+.tituloPonto {
+  font-size: 17px;
+  color: #FF914D;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#listaPonto {
+  list-style: none;
+  padding-left: 0;
+}
+
+#listaPonto li {
+  line-height: 30px;
+}
+
+#listaPonto i {
+  color: #FF914D;
+  margin-right: 15px;
+}
+
+#verPonto{
+  font-size: 14px;
+}
+#verPonto i{
+  color: #FF914D;
+}
+
+#clockVerPonto   {margin-top: 50px;}
+
+.inputTransparente input{border:none; color:#fff;}
+
+/* registrar */
+#registrarPontoFuncionarioImg img{
+  margin-top: 25px;
+  width: 200px;
+}
+
+#registrarPontoFuncionarioVer{
+  margin-top: 0px;
+}
+
+/* footer */
+#footer {
+  text-align: center;
+  background-color: #353e48;
+  color: #fff;
+  padding: 30px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+#footer p {
+    margin-bottom: 0;
+    color: #fff;
+}
+
+/* autenticação */
+#autenticacao{
+  margin-top: 50px;
+}
